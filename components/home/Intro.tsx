@@ -4,7 +4,7 @@ import StackList from './StackList'
 
 const Intro: FC = () => {
   return (
-    <section className='h-screen w-screen text-left flex flex-col justify-center items-center'>
+    <section className='h-screen w-screen text-left flex flex-col justify-center items-center overflow-x-hidden'>
       <div className='w-10/12 md:w-2/3 mx-auto text-center'>
         <motion.h1
           initial={{ opacity: 0, y: 25 }}
