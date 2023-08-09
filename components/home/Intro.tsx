@@ -10,7 +10,7 @@ const Intro: FC = () => {
         <motion.h1
           initial={{ opacity: 0, y: 25 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.5, duration: 0.5 }}
+          transition={{ delay: 0.5, duration: 0.5, type: 'tween' }}
           className='text-4xl lg:text-6xl font-bold font-pop'
         >
           👋 Hi, I'm Siam
@@ -18,7 +18,7 @@ const Intro: FC = () => {
         <motion.h2
           initial={{ opacity: 0, y: 25 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1, duration: 0.5 }}
+          transition={{ delay: 1, duration: 0.5, type: 'tween' }}
           className='mt-4 lg:mt-6 text-lg lg:text-2xl font-inter font-light'
         >
           Web Developer from Bangladesh.
@@ -26,7 +26,7 @@ const Intro: FC = () => {
         <motion.h2
           initial={{ opacity: 0, y: 25 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.5, duration: 0.5 }}
+          transition={{ delay: 1.5, duration: 0.5, type: 'tween' }}
           className='mt-2 lg:mt-3 text-lg lg:text-2xl font-inter font-light'
         >
           I love to build Beautiful and Clean Websites and Web Apps.
@@ -37,7 +37,7 @@ const Intro: FC = () => {
             <motion.button
               initial={{ opacity: 0, y: 25 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 3, duration: 0.5 }}
+              transition={{ delay: 3, duration: 0.5, type: 'tween' }}
               whileTap={{ scale: 0.95 }}
               className='h-11 bg-blue-600 rounded-lg shadow font-medium px-8 flex justify-between items-center gap-3 hover:bg-blue-700'
             >
