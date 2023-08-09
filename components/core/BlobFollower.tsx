@@ -24,7 +24,7 @@ const BlobFollower = () => {
         id='blob-static'
         className='w-64 h-64 z-10 block lg:hidden top-[20%] left-[20%] rounded-full bg-gradient-to-br from-blue-600 to-purple-600 absolute opacity-60'
       ></div>
-      <div className='h-full w-full absolute z-10 backdrop-blur-[10vmax]'></div>
+      <div className='h-screen w-screen fixed z-10 backdrop-blur-[10vmax]'></div>
     </Fragment>
   )
 }
